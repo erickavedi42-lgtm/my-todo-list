@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff1717"/>
+      <stop offset="50%" stop-color="#e6007e"/>
+      <stop offset="100%" stop-color="#4b00ff"/>
+    </linearGradient>
+
+    <linearGradient id="button" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3030"/>
+      <stop offset="100%" stop-color="#6200ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App background -->
+  <rect x="8" y="8" width="496" height="496" rx="85" fill="url(#bg)"/>
+
+  <!-- Document -->
+  <rect x="105" y="105" width="310" height="340"
+        rx="42" fill="#fff"/>
+
+  <!-- Top bar -->
+  <rect x="175" y="70" width="165" height="70"
+        rx="25" fill="url(#button)"/>
+
+  <!-- Check boxes -->
+  <rect x="145" y="180" width="65" height="65"
+        rx="18" fill="url(#button)"/>
+  <rect x="145" y="270" width="65" height="65"
+        rx="18" fill="url(#button)"/>
+  <rect x="145" y="360" width="65" height="65"
+        rx="18" fill="url(#button)"/>
+
+  <!-- Check marks -->
+  <g fill="none" stroke="white" stroke-width="13"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 210 l18 18 30-35"/>
+    <path d="M160 300 l18 18 30-35"/>
+    <path d="M160 390 l18 18 30-35"/>
+  </g>
+
+  <!-- Task lines -->
+  <rect x="235" y="195" width="135" height="22" rx="11"
+        fill="#5b16ff"/>
+  <rect x="235" y="285" width="135" height="22" rx="11"
+        fill="#5b16ff"/>
+  <rect x="235" y="375" width="135" height="22" rx="11"
+        fill="#5b16ff"/>
+</svg>
