@@ -1,0 +1,16 @@
+{
+  "name": "My To-Do List",
+  "short_name": "To-Do List",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "A simple to-do list app for managing your daily tasks.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
